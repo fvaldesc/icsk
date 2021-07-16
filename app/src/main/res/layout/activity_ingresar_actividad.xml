@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ingresarActividad">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgDelSistema"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                app:srcCompat="@drawable/maquinaria_type" />
+
+            <TextView
+                android:id="@+id/txtNombreSistemaSeleccion"
+                android:layout_width="140dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:baselineAligned="false"
+                android:text="TextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btnSeleccionarActividad"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/activity_type" />
+
+            <TextView
+                android:id="@+id/txtSeleccionarActividad"
+                android:layout_width="140dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:baselineAligned="false"
+                android:text="TextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgOdomoteroSistema"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                app:srcCompat="@drawable/odometer" />
+
+            <TextView
+                android:id="@+id/txtOdomoteroSistemaSeleccion"
+                android:layout_width="140dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:baselineAligned="false"
+                android:text="TextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgCombustible"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                app:srcCompat="@drawable/fuel_level" />
+
+            <TextView
+                android:id="@+id/txtCombustibleSistemaSeleccion"
+                android:layout_width="140dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:baselineAligned="false"
+                android:text="TextView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="364dp"
+            android:layout_height="92dp"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="80dp"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/btnIngresarActividadSeleccionVolver"
+                android:layout_width="274dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/add_activity" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
