@@ -17,6 +17,7 @@
         <activity android:name=".ingresarActividad" />
         <activity android:name=".actividadJornada" />
         <activity android:name=".actividadSistemas" />
+        <activity android:name=".actividadTurno"/>
         <activity android:name=".ingresoUsuario" />
         <activity android:name=".presentacionActividad">
             <intent-filter>
