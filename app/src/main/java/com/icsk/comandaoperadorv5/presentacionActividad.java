@@ -1,7 +1,5 @@
 package com.icsk.comandaoperadorv5;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -9,6 +7,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.widget.ProgressBar;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class presentacionActividad extends AppCompatActivity {
 
@@ -43,7 +43,9 @@ public class presentacionActividad extends AppCompatActivity {
                         startActivity(intent);
                         finish();
                     }
-
+                    Intent intent = new Intent(getApplicationContext(), ingresoUsuario.class);
+                    startActivity(intent);
+                    finish();
                 }
                 else {
                     Intent intent = new Intent(getApplicationContext(), ingresoUsuario.class);
